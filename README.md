@@ -44,7 +44,12 @@ GPU： GTX1060 3GB
   + `python demo.py --cpu --network resnet50 --data-shape 512`
 
 #### Training
-+ 
++ 1st layer
+<img src="https://user-images.githubusercontent.com/29758852/59841410-dc27b000-9386-11e9-9516-982fc7dc2fa2.jpg">
++ 1st layer result
+<img src="https://user-images.githubusercontent.com/29758852/59841412-dcc04680-9386-11e9-8976-405dffb91519.jpg">
++ 22nd layer
+<img src="https://user-images.githubusercontent.com/29758852/59841413-dcc04680-9386-11e9-95c9-e19784bb266e.jpg">
 
 #### Difficulties
 + install ubuntu as dual OSs with windows
