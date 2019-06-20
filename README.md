@@ -48,15 +48,18 @@ GPU： GTX1060 3GB
 
 #### Difficulties
 + install ubuntu as dual OSs with windows
+
   the setting of bios must be careful.
   1)  secure boot -> disable
   2)  fast boot -> disable
 + error with im2rec.py
+
   can't fix the orignal code `python tools/prepare_dataset.py --dataset pascal --year 2007,2012 --set trainval --target ./data/train.lst`
   maybe not the problem of opencv(most of the answer on internet said the reason was that there are one and more OpenCV versions but we only have the v2.4.0.1) but cant't find the exact reason
   we used 'gdb' to find the error but no useful message found
   use another code `python /home/<usrname>/mxnet-ssd/tools/../mxnet/tools/im2rec.py /home/<usrname>/mxnet-ssd/data/train.lst /home/<usrname>/mxnet-ssd/data/VOCdevkit --shuffle 1 --pack-label 1`
 + batch size made the GPU out of memory
+
   because our GPU has 3GB only
   change smaller batch size
 
