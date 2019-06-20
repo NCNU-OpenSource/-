@@ -99,3 +99,5 @@ GPU： GTX1060 3GB
 + https://github.com/zhreshold/mxnet-ssd
 + https://www.cnblogs.com/visiontony/p/how-to-debug-python-segmentation-fault-using-gdb.html
 + https://github.com/tensorflow/models/issues/2034
++ https://paperswithcode.com/paper/ssd-single-shot-multibox-detector (paper)
++ https://arxiv.org/pdf/1512.02325v5.pdf
