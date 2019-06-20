@@ -86,11 +86,12 @@ GPU： GTX1060 3GB
 + train 
 + tvmonitor
 
-
-
-
-
-
+## workload
+|成員| 貢獻 |
+| --------| -------- |
+| Dorothy |處理Windows的部分，處理Readme，|
+| Jasmine |處理Ubuntu的部分，跑Training|
+|
 
 ### 參考資料
 + https://blog.csdn.net/u014380165/article/details/72824889
