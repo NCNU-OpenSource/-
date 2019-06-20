@@ -10,6 +10,13 @@
 + 最近一年比较优秀的object detection算法，主要特点在于采用了特征融合。
 + 一种直接预测bounding box的坐标和类别的object detection算法，没有生成proposal的过程
 + 架構圖
+<img width="558" alt="ssd" src="https://user-images.githubusercontent.com/35098279/59819988-c4d3cd00-935c-11e9-90a0-b9a67f18e9fc.PNG">
+
+### Demo 
+安裝套件
+`sudo apt-get install python-opencv python-matplotlib python-numpy`
+
+
 
 
 ### 參考資料
