@@ -1,4 +1,10 @@
 ## What-are-you?
+Group 6
+
+Traditionally, we use flash cards to teach children. We need to stay with them all the time to teach them the basic. However, we are very busy in this society and we can't answer them all the time when they are interesting on what the thing is.
+Therefore, childrens can use WHAT-ARE-YOU to learn knowledge and correct their wrong answer. They can take a picture of the thing and WHAT-ARE-YOU would answer it.
+
+
 + 使用Mxnet做物體辨識，外加上SSD技術讓辨識可以在一張照片上辨識出多種物品
 ---
 ### 什麽是Mxnet？
@@ -40,6 +46,20 @@ GPU： GTX1060 3GB
 #### Training
 + 
 
+#### Difficulties
++ install ubuntu as dual OSs with windows
+  the setting of bios must be careful.
+  1)  secure boot -> disable
+  2)  fast boot -> disable
++ error with im2rec.py
+  can't fix the orignal code `python tools/prepare_dataset.py --dataset pascal --year 2007,2012 --set trainval --target ./data/train.lst`
+  maybe not the problem of opencv(most of the answer on internet said the reason was that there are one and more OpenCV versions but we only have the v2.4.0.1) but cant't find the exact reason
+  we used 'gdb' to find the error but no useful message found
+  use another code `python /home/<usrname>/mxnet-ssd/tools/../mxnet/tools/im2rec.py /home/<usrname>/mxnet-ssd/data/train.lst /home/<usrname>/mxnet-ssd/data/VOCdevkit --shuffle 1 --pack-label 1`
++ batch size made the GPU out of memory
+  because our GPU has 3GB only
+  change smaller batch size
+
 
 #### 可辨識的物品
 + Aeroplane
@@ -73,3 +93,5 @@ GPU： GTX1060 3GB
 + https://blog.csdn.net/u014380165/article/details/72824889
 + https://blog.csdn.net/u014380165/article/details/78219584
 + https://github.com/zhreshold/mxnet-ssd
++ https://www.cnblogs.com/visiontony/p/how-to-debug-python-segmentation-fault-using-gdb.html
++ https://github.com/tensorflow/models/issues/2034
