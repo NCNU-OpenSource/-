@@ -13,8 +13,32 @@
 <img width="558" alt="ssd" src="https://user-images.githubusercontent.com/35098279/59819988-c4d3cd00-935c-11e9-90a0-b9a67f18e9fc.PNG">
 
 ### Demo 
+#### Environment
+Ubuntu 16.04 (Dual OS with Windows)
+GPU： GTX1060 3GB
+
+
+
+
 安裝套件
 + `sudo apt-get install python-opencv python-matplotlib python-numpy`
++ `sudo apt-get install mxnet`
+  + 如果你有獨顯
+  + `sudo apt-get install mxnet-cu92`
+  + https://mxnet.incubator.apache.org/versions/master/install/ubuntu_setup.html#cuda-dependencies
+  + 版本要對哦！
+
++ 下載 pretrained models
+  + <a href=https://github.com/zhreshold/mxnet-ssd/releases/download/v0.6/resnet50_ssd_512_voc0712_trainval.zip>pretrained model</a>
+  + 解壓縮放在 data/ 裏面
+  
++ 執行demo 
+  + `python demo.py` (default settings)
+  + `python demo.py --images ./data/demo/dog.jpg --thresh 0.5`
+  + `python demo.py --cpu --network resnet50 --data-shape 512`
+
+#### Training
++ 
 
 
 #### 可辨識的物品
