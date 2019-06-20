@@ -14,7 +14,33 @@
 
 ### Demo 
 安裝套件
-`sudo apt-get install python-opencv python-matplotlib python-numpy`
++ `sudo apt-get install python-opencv python-matplotlib python-numpy`
+
+
+#### 可辨識的物品
++ Aeroplane
++ bicycle
++ bird
++ boat
++ bottle
++ bus
++ car
++ cat
++ chair
++ cow
++ diningtable
++ dog
++ horse
++ motorbike
++ person
++ pottedplant
++ sheep
++ sofa
++ train 
++ tvmonitor
+
+
+
 
 
 
