@@ -44,12 +44,21 @@ GPU： GTX1060 3GB
   + `python demo.py --cpu --network resnet50 --data-shape 512`
 
 #### Training
+1) learning rate: 0.004
 + 1st layer
 <img src="https://user-images.githubusercontent.com/29758852/59841410-dc27b000-9386-11e9-9516-982fc7dc2fa2.jpg">
 + 1st layer result
 <img src="https://user-images.githubusercontent.com/29758852/59841412-dcc04680-9386-11e9-8976-405dffb91519.jpg">
 + 22nd layer
 <img src="https://user-images.githubusercontent.com/29758852/59841413-dcc04680-9386-11e9-95c9-e19784bb266e.jpg">
+
+2) learning rate: 0.001
+<img src="https://user-images.githubusercontent.com/29758852/59961492-0013fe80-950b-11e9-917e-5ab89c9b45e3.png">
+
+3) learning rate: 0.001; end-epoch: 17
+<img src="https://user-images.githubusercontent.com/29758852/59961491-0013fe80-950b-11e9-9bd8-f8659a4d9208.png">
+
+
 
 #### Difficulties
 + install ubuntu as dual OSs with windows
