@@ -44,6 +44,7 @@ GPU： GTX1060 3GB
   + `python demo.py --cpu --network resnet50 --data-shape 512`
 
 #### Training
+**need to define the epoch by yourself**
 1) learning rate: 0.004
 + 1st layer
 <img src="https://user-images.githubusercontent.com/29758852/59841410-dc27b000-9386-11e9-9516-982fc7dc2fa2.jpg">
