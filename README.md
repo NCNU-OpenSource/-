@@ -76,8 +76,7 @@ GPU： GTX1060 3GB
   use another code `python /home/<usrname>/mxnet-ssd/tools/../mxnet/tools/im2rec.py /home/<usrname>/mxnet-ssd/data/train.lst /home/<usrname>/mxnet-ssd/data/VOCdevkit --shuffle 1 --pack-label 1`
 + batch size made the GPU out of memory
 
-  because our GPU has 3GB only
-  change smaller batch size
+  because our GPU has 3GB only so we need to change smaller batch size
 
 
 #### 可辨識的物品
